@@ -1,7 +1,13 @@
+###########################################################################
+########### TASK : TextClassification                       ###############
+########### DATASET : MNLI                                  ###############
+########### GOAL : Increase model accuracy to more than 42% ###############
+###########################################################################
+
 !pip install torchtext==0.14.0
 !pip install torchdata==0.5.0
 !pip install torch==1.13.1
-# 코드 실행 이후 Restart_runtime 해주시면 되겠습니다.
+# 코드 실행 이후 Restart_runtime
 
 from torchtext.datasets import MNLI
 from torchtext.data.utils import get_tokenizer
